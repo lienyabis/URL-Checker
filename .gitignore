@@ -1,0 +1,19 @@
+## Build output
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+*.user
+*.suo
+
+## Visual Studio / Rider
+.vs/
+.idea/
+*.sln.docstates
+
+## UI smoke test output
+renders/
+
+## OS noise
+Thumbs.db
+.DS_Store

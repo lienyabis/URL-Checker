@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    UI smoke test. Instantiates the real MainForm, drives the scan path and
+    renders the form to a PNG so the visual result can be verified without
+    relying on window focus or manual interaction.
+  -->
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>PhishGuard.UiSmokeTest</RootNamespace>
+    <AssemblyName>PhishGuard.UiSmokeTest</AssemblyName>
+    <UseWindowsForms>true</UseWindowsForms>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PhishGuard.App\PhishGuard.App.csproj" />
+  </ItemGroup>
+
+</Project>

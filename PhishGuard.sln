@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhishGuard.Core", "PhishGuard.Core\PhishGuard.Core.csproj", "{286BD17D-5863-426F-940F-DEE4FE5E614B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhishGuard.App", "PhishGuard.App\PhishGuard.App.csproj", "{FDC890C0-A1A1-4793-B092-A83084E0162D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhishGuard.Tests", "PhishGuard.Tests\PhishGuard.Tests.csproj", "{463C3FAB-2769-4695-80D9-B7E57C538648}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhishGuard.UiSmokeTest", "PhishGuard.UiSmokeTest\PhishGuard.UiSmokeTest.csproj", "{F30578DA-0310-46E7-8F45-D263E882995B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{286BD17D-5863-426F-940F-DEE4FE5E614B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{286BD17D-5863-426F-940F-DEE4FE5E614B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{286BD17D-5863-426F-940F-DEE4FE5E614B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{286BD17D-5863-426F-940F-DEE4FE5E614B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDC890C0-A1A1-4793-B092-A83084E0162D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDC890C0-A1A1-4793-B092-A83084E0162D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDC890C0-A1A1-4793-B092-A83084E0162D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDC890C0-A1A1-4793-B092-A83084E0162D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{463C3FAB-2769-4695-80D9-B7E57C538648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{463C3FAB-2769-4695-80D9-B7E57C538648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{463C3FAB-2769-4695-80D9-B7E57C538648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{463C3FAB-2769-4695-80D9-B7E57C538648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F30578DA-0310-46E7-8F45-D263E882995B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F30578DA-0310-46E7-8F45-D263E882995B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F30578DA-0310-46E7-8F45-D263E882995B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F30578DA-0310-46E7-8F45-D263E882995B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
